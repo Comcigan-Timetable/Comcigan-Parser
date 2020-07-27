@@ -1,4 +1,4 @@
-# comcigan-parser
+# Comcigan-Parser-Edited
 
 📘🕘 컴시간 알리미 시간표 파싱 라이브러리 입니다.  
 본 라이브러리는 [컴시간](http://comci.kr) 홈페이지에서 등록된 학교의 **시간표** 데이터를 파싱하여 제공합니다.
@@ -120,13 +120,13 @@ timetable.searchSchool(keyword);
 
 ### Timetable 인스턴스 생성
 
-`comcigan-parser` 모듈을 불러온 후 인스턴스를 생성합니다.  
+`comcigan-parser-edited` 모듈을 불러온 후 인스턴스를 생성합니다.  
 생성 후 반드시 `init(option)`를 호출하여 초기화 합니다.
 
 - 옵션은 [여기](<#(Method)-Timetable.init>) 참조
 
 ```javascript
-const Timetable = require("comcigan-parser");
+const Timetable = require("comcigan-parser-edited");
 const timetable = new Timetable();
 
 timetable.init(option).then(() => {
@@ -207,7 +207,7 @@ console.log(time);
 ## 사용 예제
 
 ```javascript
-const Timetable = require("comcigan-parser");
+const Timetable = require("comcigan-parser-edited");
 const timetable = new Timetable();
 
 const test = async () => {
@@ -311,7 +311,7 @@ timetable.getTimetable().then((result) => {
 
 ## 문제 신고
 
-시간표 파싱이 되지 않거나 문제가 발생한 경우 [이슈](https://github.com/Comcigan-Timetable/Comcigan-Parser/issues)를 남겨주세요.
+시간표 파싱이 되지 않거나 문제가 발생한 경우 [이슈](https://github.com/Comcigan-Timetable/comcigan-parser-edited/issues)를 남겨주세요.
 
 ## 변경사항
 
