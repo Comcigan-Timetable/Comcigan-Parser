@@ -24,7 +24,7 @@
 ## 설치하기
 
 ```bash
-npm i comcigan-parser
+npm i comcigan-parser-edited
 ```
 
 ## 개발 문서
@@ -34,7 +34,7 @@ npm i comcigan-parser
 Timetable 클래스의 인스턴스를 생성하여 사용합니다.
 
 ```javascript
-const Timetable = require("comcigan-parser");
+const Timetable = require("comcigan-parser-edited");
 new Timetable();
 ```
 
